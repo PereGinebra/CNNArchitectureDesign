@@ -1,6 +1,10 @@
 Project for my Bachelor's Thesis in Computer Science.
 </br>
 </br>
+
+---
+
+
 # Designing Convolutional Neural Networks for Classification of Metastatic Tissue in the Lymph Nodes
 ## Evaluation of the Effect of Feature Map Distributions Across Convolutional Layers on Network Performance
 </br>
@@ -11,8 +15,17 @@ A more specific question that it gets closer to answering could be: how does the
 For a more detailed explanation of the project and its outcomes, refer to abstarct or the full report added in the repository. 
 </br>
 </br>
+
+---
+## Jupyter Notebooks
+The 3 jupyter notebooks used each have their own task:
+- [DefineArchitectures](./DefineArchitectures.ipynb) is the notebook used to define and store new architectures quickly in the form of untrained models.
+- [ModelTrainingAndTesting](./ModelTrainingAndTesting.ipynb) is the notebook used to train and test archtiectures and models as well as store the results of these procedures.
+- [GenerateGraphs](./GraphGeneration.ipynb) is the notebook used to generate graphs with the data obtained from the previous notebook.
+
 </br>
 
+---
 ## File hierarchy
 The code in this project is very dependent on the file hierarchy used to store different data. Here you can see it briefly defined:
 - ./datasets/Cancer Detection/labeled images/ : PCam Dataset location. Divided into 2 folders (named '0' and '1') according to their label. 
