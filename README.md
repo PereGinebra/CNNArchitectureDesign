@@ -9,3 +9,14 @@ A more specific question that it gets closer to answering could be: how does the
 </br>
 </br>
 For a more detailed explanation of the project and its outcomes, refer to abstarct or the full report added in the repository. 
+</br>
+</br>
+</br>
+
+## File hierarchy
+The code in this project is very dependent on the file hierarchy used to store different data. Here you can see it briefly defined:
+- ./datasets/Cancer Detection/labeled images/ : PCam Dataset location. Divided into 2 folders (named '0' and '1') according to their label. 
+- ./Graphs/ : Location where graphs generated in the *Graph Generation* notebook are stored.
+- ./Models/ : Location where the untrained models/architectures defined in the *Prepare models for testing* notebook are stored. Each model is stored in one of the 5 sub-directories (/up, /down, /hill, /valley, /flat) according to their design. 
+- ./Results/ : Location where all the results are stored. The training histories are stored in a csv file inside the subdirectory "/history CSVs". Test results of trained models are stored in the subdirectory "/Test Results". The txt files containing the history+final result of each model are stored in one of the 5 subdirectories (/up, /down, /hill, /valley, /flat) according to the model design.
+- ./Trained Models/ : Location where the fully trained models are stored.
